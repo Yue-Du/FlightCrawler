@@ -1,0 +1,607 @@
+{
+  "FlightSearchResults" : {
+    "Mode" : "All",
+    "milesEnable" : "",
+    "PageInfo" : {
+      "Language" : "zh",
+      "Locale" : "zh_CN",
+      "Currency" : "CNY",
+      "CurrencyRoundTo" : "0.01",
+      "FromServicing" : "false",
+      "ConversationID" : "OJ1597732627271",
+      "SessionID" : "C9E15933687A931F8D25CA7C3CD139D9.HUIBEServer23",
+      "SessionPageRandom" : "",
+      "ReadOnly" : "false",
+      "skin" : "hainan",
+      "LayoutType" : "",
+      "NavSelect" : "",
+      "PageType" : "",
+      "UserIP" : "71.11.103.52",
+      "POS" : {
+        "CompanyCode" : "ibe"
+      }
+    },
+    "UserProfileSummary" : {
+      "ForceLoginForBooking" : "true",
+      "LoginForm" : {
+        "name" : "loginForm",
+        "method" : "post",
+        "action" : "\/profile\/processLogin.do?SECURE=true",
+        "LoginUsernameInput" : {
+          "name" : "credentials\/loginUsername",
+          "type" : "string",
+          "value" : ""
+        },
+        "LoginPasswordInput" : {
+          "name" : "credentials\/loginPassword",
+          "type" : "string",
+          "value" : ""
+        },
+        "RememberMeInput" : {
+          "type" : "boolean",
+          "name" : "rememberMe",
+          "value" : "true"
+        },
+        "SuccessPageInput" : {
+          "name" : "successPage",
+          "type" : "fixed",
+          "value" : "\/common\/processSearchForm.do?repeatSearch=true"
+        },
+        "LoginUsernameTypeInput" : {
+          "name" : "credentials\/loginUsernameType",
+          "type" : "fixed",
+          "value" : ""
+        },
+        "RetrieveTypeInput" : {
+          "name" : "bookingSearch\/reference",
+          "type" : "fixed",
+          "value" : ""
+        },
+        "RetrieveReferenceInput" : {
+          "name" : "bookingSearch\/TicketNumber",
+          "type" : "string",
+          "value" : ""
+        },
+        "DisableUserRegistration" : {
+          "type" : "boolean",
+          "name" : "disableUserRegistration",
+          "value" : "false"
+        },
+        "MobilePhoneInput" : {
+          "name" : "mobilePhone",
+          "type" : "string",
+          "value" : ""
+        },
+        "SMSVerificationCodeInput" : {
+          "name" : "smsVerificationCode",
+          "type" : "string",
+          "value" : ""
+        },
+        "CAPTCHAVerificationCodeInput" : {
+          "name" : "captcha\/verificationCode",
+          "type" : "string",
+          "value" : ""
+        },
+        "CAPTCHATimestampLoginInput" : {
+          "name" : "captcha\/timestampLogin",
+          "type" : "string",
+          "value" : ""
+        },
+        "CAPTCHALoginPageSourceInput" : {
+          "name" : "captcha\/loginPageSource",
+          "type" : "string",
+          "value" : ""
+        },
+        "LoginMethodTypeInput" : {
+          "name" : "loginMethodType",
+          "type" : "string",
+          "value" : ""
+        }
+      }
+    },
+    "RetrieveBookingForm" : {
+      "name" : "retrieveBookingForm",
+      "action" : "\/bookingManagement\/home.do",
+      "method" : "post",
+      "ReferenceInput" : {
+        "type" : "string",
+        "name" : "bookingSearch\/reference",
+        "value" : ""
+      },
+      "TicketNumberInput" : {
+        "type" : "string",
+        "name" : "bookingSearch\/ticketNumber",
+        "value" : ""
+      },
+      "EmailInput" : {
+        "type" : "string",
+        "name" : "bookingSearch\/email",
+        "value" : ""
+      },
+      "MobilePhoneInput" : {
+        "type" : "string",
+        "name" : "mobilePhone",
+        "value" : ""
+      },
+      "SMSVerificationCodeInput" : {
+        "type" : "string",
+        "name" : "smsVerificationCode",
+        "value" : ""
+      }
+    },
+    "SearchSummary" : {
+      "Flight" : [
+        {
+          "Departure" : {
+            "Code" : "CITY_BJS_CN",
+            "Name" : "",
+            "CityName" : "北京首都",
+            "Date" : "2020-08-08",
+            "Time" : ""
+          },
+          "Arrival" : {
+            "Code" : "CITY_CAN_CN",
+            "Name" : "",
+            "CityName" : "广州"
+          }
+        }
+      ],
+      "BookSeatClass" : "A",
+      "SearchType" : null,
+      "FlightType" : "oneway",
+      "PromotionCode" : null,
+      "FromFlightSearch" : null,
+      "FareType" : null,
+      "BookSeatClass" : "A",
+      "AdditionalOptions" : {
+        "AirDirectOnly" : ""
+      },
+      "ActivitySwitch" : null,
+      "Filters" : null,
+      "Passengers" : {
+        "Adults" : "1",
+        "Children" : "0",
+        "Infants" : "0",
+        "MilitaryDisabled" : "0",
+        "PoliceDisabled" : "0"
+      },
+      "isDomestic" : null,
+      "LowSearchPriceSale" : null,
+      "NearByStatus" : null
+    },
+    "PointFromFFPFormForTribe" : {
+      "action" : "\/air\/getPointFromFFPForTribe.do",
+      "name" : "PointFromFFPFormForTribe",
+      "method" : "post",
+      "AirItinerary" : {
+        "DirectionIndInput" : {
+          "name" : "PointForTribe\/AirItinerary\/@DirectionInd",
+          "value" : "",
+          "type" : "fixed"
+        },
+        "OriginDestinationOptions" : {
+          "OriginDestinationOption" : {
+            "RPHInput" : {
+              "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/@RPH",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "FlightSegment" : {
+              "DepartDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/@DepartureDateTime",
+                "value" : ""
+              },
+              "DepartureAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/DepartureAirport\/@LocationCode",
+                "value" : ""
+              },
+              "ArrivalDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/@ArrivalDateTime",
+                "value" : ""
+              },
+              "ArrivalAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/ArrivalAirport\/@LocationCode",
+                "value" : ""
+              },
+              "MarketingAirlineInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/MarketingAirline\/@Code",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "AirEquipTypeInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/Equipment\/@AirEquipType",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "RPHInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$1$\/@RPH",
+                "value" : "",
+                "type" : "fixed"
+              }
+            },
+            "FlightSegment" : {
+              "DepartDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/@DepartureDateTime",
+                "value" : ""
+              },
+              "DepartureAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/DepartureAirport\/@LocationCode",
+                "value" : ""
+              },
+              "ArrivalDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/@ArrivalDateTime",
+                "value" : ""
+              },
+              "ArrivalAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/ArrivalAirport\/@LocationCode",
+                "value" : ""
+              },
+              "MarketingAirlineInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/MarketingAirline\/@Code",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "AirEquipTypeInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/Equipment\/@AirEquipType",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "RPHInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$2$\/@RPH",
+                "value" : "",
+                "type" : "fixed"
+              }
+            },
+            "FlightSegment" : {
+              "DepartDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/@DepartureDateTime",
+                "value" : ""
+              },
+              "DepartureAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/DepartureAirport\/@LocationCode",
+                "value" : ""
+              },
+              "ArrivalDateInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/@ArrivalDateTime",
+                "value" : ""
+              },
+              "ArrivalAirportInput" : {
+                "type" : "fixed",
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/ArrivalAirport\/@LocationCode",
+                "value" : ""
+              },
+              "MarketingAirlineInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/MarketingAirline\/@Code",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "AirEquipTypeInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/Equipment\/@AirEquipType",
+                "value" : "",
+                "type" : "fixed"
+              },
+              "RPHInput" : {
+                "name" : "PointForTribe\/AirItinerary\/OriginDestinationOptions\/OriginDestinationOption$1$\/FlightSegment$3$\/@RPH",
+                "value" : "",
+                "type" : "fixed"
+              }
+            }
+          }
+        }
+      },
+      "AirItineraryPricingInfo" : {
+        "FarefamilyCodeInput" : {
+          "name" : "PointForTribe\/AirItineraryPricingInfo\/@FarefamilyCode",
+          "value" : "",
+          "type" : "fixed"
+        },
+        "FareInfos" : {
+          "FareInfo" : {
+            "FlightSegmentRPHInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$1$\/@FlightSegmentRPH",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "BaseAmountInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$1$\/FareInfo\/Fare\/@BaseAmount",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "PassengerTypeCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$1$\/FareInfo\/PTC\/@PassengerTypeCode",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "ResBookDesigCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$1$\/FareReference\/@ResBookDesigCode",
+              "value" : "",
+              "type" : "fixed"
+            }
+          },
+          "FareInfo" : {
+            "FlightSegmentRPHInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$2$\/@FlightSegmentRPH",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "BaseAmountInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$2$\/FareInfo\/Fare\/@BaseAmount",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "PassengerTypeCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$2$\/FareInfo\/PTC\/@PassengerTypeCode",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "ResBookDesigCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$2$\/FareReference\/@ResBookDesigCode",
+              "value" : "",
+              "type" : "fixed"
+            }
+          },
+          "FareInfo" : {
+            "FlightSegmentRPHInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$3$\/@FlightSegmentRPH",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "BaseAmountInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$3$\/FareInfo\/Fare\/@BaseAmount",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "PassengerTypeCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$3$\/FareInfo\/PTC\/@PassengerTypeCode",
+              "value" : "",
+              "type" : "fixed"
+            },
+            "ResBookDesigCodeInput" : {
+              "name" : "PointForTribe\/AirItineraryPricingInfo\/FareInfos\/FareInfo$3$\/FareReference\/@ResBookDesigCode",
+              "value" : "",
+              "type" : "fixed"
+            }
+          }
+        }
+      }
+    },
+    "FlightFilterForm" : {
+      "action" : "\/air\/processFilterSearch.do",
+      "method" : "post",
+      "name" : "FlightFilterForm",
+      "OutboundDepartureMinInput" : {
+        "type" : "number",
+        "name" : "lowMarginDeparture",
+        "min" : "00",
+        "max" : "24",
+        "value" : "00"
+      },
+      "OutboundDepartureMaxInput" : {
+        "type" : "number",
+        "name" : "highMarginDeparture",
+        "min" : "00",
+        "max" : "24",
+        "value" : "24"
+      },
+      "NumberOfStopsInput" : {
+        "type" : "list",
+        "name" : "filters\/numStops",
+        "min" : "0",
+        "max" : "2",
+        "option" : [
+          {
+            "value" : "0"
+          },
+          {
+            "value" : "1"
+          },
+          {
+            "value" : "2",
+            "selected" : "selected"
+          }
+        ]
+      },
+      "PriceMinInput" : {
+        "type" : "number",
+        "name" : "lowMarginPrice",
+        "min" : "",
+        "max" : "",
+        "currency" : "",
+        "value" : ""
+      },
+      "PriceMaxInput" : {
+        "type" : "number",
+        "name" : "highMarginPrice",
+        "min" : "",
+        "max" : "",
+        "currency" : "",
+        "value" : ""
+      }
+    },
+    "SortForm" : {
+      "action" : "\/air\/searchResultsSort.do",
+      "name" : "sortForm",
+      "method" : "post",
+      "SearchTypeInput" : {
+        "type" : "fixed",
+        "name" : "Search\/searchType",
+        "value" : "F"
+      },
+      "SortByInput" : {
+        "type" : "list",
+        "name" : "filters\/sortBy",
+        "value" : "",
+        "option" : [
+          {
+            "value" : "price"
+          },
+          {
+            "value" : "time"
+          }
+        ]
+      }
+    },
+    "DeepLinkForm" : {
+      "action" : "\/air\/getDeepLinkParameters.do",
+      "name" : "DeepLinkForm",
+      "method" : "post",
+      "SelectedFlightInput" : {
+        "name" : "seqNum",
+        "value" : "",
+        "type" : "fixed"
+      }
+    },
+    "ChooseFlightForm" : {
+      "action" : "\/air\/addToCart.do",
+      "name" : "airSelection",
+      "method" : "post",
+      "SearchTypeInput" : {
+        "name" : "Search\/searchType",
+        "value" : "F",
+        "type" : "fixed"
+      },
+      "SelectedFlightInput" : {
+        "name" : "seqNum",
+        "value" : "",
+        "type" : "fixed"
+      },
+      "UseLoyaltyInput" : {
+        "name" : "useLoyalty",
+        "value" : "",
+        "type" : "fixed"
+      },
+      "FareFamilyCodeInput" : {
+        "name" : "farefamilycode",
+        "value" : "",
+        "type" : "fixed"
+      },
+      "EncryptedFlightDetailsInput" : {
+        "name" : "encryptedFlightDetails",
+        "value" : "",
+        "type" : "string"
+      },
+      "EncryptedFareInfoInput" : {
+        "name" : "encryptedFareInfo",
+        "value" : "",
+        "type" : "string"
+      },
+      "SeatClassInput" : {
+        "name" : "Search\/seatClass",
+        "value" : "",
+        "type" : "list"
+      }
+    },
+    "FlightPageForm" : {
+      "action" : "\/air\/searchResultsPage.do",
+      "method" : "post",
+      "name" : "FlightPageForm",
+      "SearchTypeInput" : {
+        "name" : "Search\/searchType",
+        "value" : "F",
+        "type" : "fixed"
+      },
+      "PageNumberInput" : {
+        "type" : "list",
+        "name" : "pageNumber",
+        "value" : "1",
+        "option" : [
+          {
+            "value" : "1",
+            "selected" : "selected"
+          }
+        ]
+      }
+    },
+    "Pages" : {
+      "First" : "1",
+      "Current" : "1",
+      "Last" : "0"
+    },
+    "AlternateFlights" : {
+      "Total" : "0",
+      "Matching" : "0"
+    },
+    "InfantAvailForm" : {
+      "action" : "\/air\/infantAvailCheck.do",
+      "method" : "post",
+      "name" : "InfantAvailForm",
+      "FlightSeqNumInput" : {
+        "name" : "Search\/flightSeqNumber",
+        "value" : "",
+        "type" : "fixed"
+      }
+    },
+    "MemberDayForm" : {
+      "action" : "\/air\/processMemberDaySearch.do",
+      "name" : "memberDay",
+      "method" : "post"
+    },
+    "SendSMSVerficationCodeForm" : {
+      "name" : "SendSMSVerficationCodeForm",
+      "method" : "post",
+      "action" : "\/bookingManagement\/processSendSMS.do",
+      "SMSVerificationTypeInput" : {
+        "name" : "type",
+        "type" : "list",
+        "value" : "login",
+        "option" : [
+          {
+            "value" : "login"
+          },
+          {
+            "value" : "retrieveBook"
+          },
+          {
+            "value" : "rebackpw"
+          },
+          {
+            "value" : "register"
+          },
+          {
+            "value" : "bindMobile"
+          },
+          {
+            "value" : "bindMobileChange"
+          },
+          {
+            "value" : "phoneRandom"
+          },
+          {
+            "value" : "allChannelImport"
+          },
+          {
+            "value" : "allChannelImportLogin"
+          },
+          {
+            "value" : "beneficiary"
+          },
+          {
+            "value" : "tribeBeneficiary"
+          }
+        ]
+      },
+      "MobilePhoneInput" : {
+        "name" : "mobilePhone",
+        "type" : "string",
+        "value" : ""
+      }
+    },
+    "PointFromFFPForm" : {
+      "action" : "\/air\/getPointFromFFP.do",
+      "name" : "pointFromFFP",
+      "method" : "post"
+    }
+  }
+}
+
